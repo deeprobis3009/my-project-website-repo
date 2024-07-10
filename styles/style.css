@@ -1,31 +1,31 @@
 header {
     background-image: url('../assets/Hero-bg.png');
-    height: 650px;
+    height: 652px;
     width: 100%;
 }
 
 .banner-contents{
-    max-width: 996px;
+    max-width: 998px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    padding: 35px 0;
+    padding: 30px 0;
 }
 
 header h1 {
-    font-size: 50px;
-    font-weight: 800px;
+    font-size: 48px;
+    font-weight: 800;
     color: var(--dark-1-color);
-    line-height: 70px;
-    margin-top: 34px;
+    line-height: 68px;
+    margin-top: 32px;
 }
 
 header p {
     color: var(--dark-1-color) ;
-    opacity: 0.9;
-    line-height: 25px;
+    opacity: 0.7;
+    line-height: 26px;
     margin: 30px 0px;
 }
 
@@ -40,4 +40,68 @@ primary button {
     font-size: 20px;
     background-color: var(--dark-1-color);
     border: none;
+}
+
+/* mainpart */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.mainer {
+    font-size: 32px;
+    font-weight: 800;
+    color:  var(--dark-1-color);
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.mainer2 {
+    color: var(--dark-1-color);
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 48px;
+    line-height: 26px;
+}
+
+.explain {
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+    margin: 80px 0px;
+}
+
+.kolam h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: var(--dark-1-color);
+}
+
+.kolam p {
+    color: var(--dark-1-color);
+    opacity: 0.7;
+    margin: 16px 0 32px 0;
+    line-height: 26px;
+}
+
+.kolam button {
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid var(--dark-1-color);
+    color: var(--dark-1-color);
+}
+
+.container {
+    display: flex;
+    padding: 48px;
+    gap: 95px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.something {
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
